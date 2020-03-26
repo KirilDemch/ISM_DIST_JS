@@ -5,10 +5,10 @@ table  td {
     position: relative;
 }
 table td.open {
-    background: #fff;
     text-align: center;
     line-height: 50px;
     font-size: 24px;
+    background: #d7d7d7;
 }
 table td.lock::after {
     content: '';
@@ -20,3 +20,24 @@ table td.lock::after {
     left: 15px;
     top: 15px;
 }
+form {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+input {
+    position: absolute;
+    right: 10px;
+}
+.form_item {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+#generateButton, table{
+    margin-top: 20px;
+}
+
+
