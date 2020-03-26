@@ -1,5 +1,5 @@
-
-var debug = true;
+// true - отобразить значение всех полей и увидеть расположение бомб
+var debug = false;
 
 
 var settings = {
